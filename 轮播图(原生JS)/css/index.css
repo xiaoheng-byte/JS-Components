@@ -1,0 +1,78 @@
+.main {
+    width: 1152px;
+    height: 566px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.focus {
+    position: relative;
+    width: 1152px;
+    height: 570px;
+    background-color: #fff;
+    overflow: hidden;   /*隐藏其他图片*/
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500%;
+}
+.focus ul li {
+    float: left;
+}
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff; 
+    font-size: 18px;
+    z-index: 2;     /*把箭头放到图片上面*/
+}
+.arrow-r {
+    right: 0;
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid #fff;
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+/*去掉a的横线*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*清除元素默认的内外边距  */
+* {
+    margin: 0;
+    padding: 0
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+.current {
+    background-color:#fff;
+}
