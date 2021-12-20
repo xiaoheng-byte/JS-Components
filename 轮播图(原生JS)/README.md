@@ -9,4 +9,4 @@
 
 效果图：
 
-![nene](C:\Users\29271\Desktop\玲娜贝儿\轮播图(原生JS)\nene.png)
+![nene](nene.png)
